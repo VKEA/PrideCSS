@@ -400,7 +400,7 @@
 /* Smooth styles */
 
 .style-gay-smooth {
-    background-image: radial-gradient(#e40303, 
+    background-image: linear-gradient(#e40303, 
     #ff8c00,
     #ffed00,
     #008026,
@@ -409,7 +409,7 @@
 }
 
 .style-trans-smooth {
-    background-image: radial-gradient(#5bcefa, 
+    background-image: radlinearial-gradient(#5bcefa, 
     #f5a9b8,
     #ffffff,
     #f5a9b8,
@@ -417,7 +417,7 @@
 }
 
 .style-bi-smooth {
-    background-image: radial-gradient(#d60270, 
+    background-image: linear-gradient(#d60270, 
     #d60270,
     #9b4f96,
     #0038a8,
@@ -425,7 +425,7 @@
 }
 
 .style-lesbian-smooth {
-    background-image: radial-gradient(#d52d00, 
+    background-image: linear-gradient(#d52d00, 
     #ff9a56,
     #ffffff,
     #d362a4,
@@ -433,21 +433,21 @@
 }
 
 .style-asexual-smooth {
-    background-image: radial-gradient(#000000, 
+    background-image: linear-gradient(#000000, 
     #a3a3a3,
     #ffffff,
     #800080);
 }
 
 .style-nonbinary-smooth {
-    background-image: radial-gradient(#fff430, 
+    background-image: linear-gradient(#fff430, 
     #ffffff,
     #9c59d1,
     #000000);
 }
 
 .style-genderfluid-smooth {
-    background-image: radial-gradient(#ff75a2, 
+    background-image: linear-gradient(#ff75a2, 
     #ffffff,
     #be18d6,
     #000000,
