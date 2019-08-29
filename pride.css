@@ -1,0 +1,526 @@
+/* Regular styles */
+
+.style-gay {
+    background-image: linear-gradient(#e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5));
+}
+
+.style-trans {
+    background-image: linear-gradient(#5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4));
+}
+
+.style-bi {
+    background-image: linear-gradient(#d60270 calc((100%/5)*1), 
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4),
+    #0038a8 calc((100%/5)*4));
+}
+
+.style-lesbian {
+    background-image: linear-gradient(#d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4));
+}
+
+.style-asexual {
+    background-image: linear-gradient(#000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4));
+}
+
+.style-nonbinary {
+    background-image: linear-gradient(#fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4));
+}
+
+.style-genderfluid {
+    background-image: linear-gradient(#ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4));
+}
+
+/* Horizontal styles */
+
+.style-gay-horizontal {
+    background-image: linear-gradient(to right, #e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5));
+}
+
+.style-trans-horizontal {
+    background-image: linear-gradient(to right, #5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4));
+}
+
+.style-bi-horizontal {
+    background-image: linear-gradient(to right, #d60270 calc((100%/5)*1), 
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4),
+    #0038a8 calc((100%/5)*4));
+}
+
+.style-lesbian-horizontal {
+    background-image: linear-gradient(to right, #d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4));
+}
+
+.style-asexual-horizontal {
+    background-image: linear-gradient(to right, #000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4));
+}
+
+.style-nonbinary-horizontal {
+    background-image: linear-gradient(to right, #fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4));
+}
+
+.style-genderfluid-horizontal {
+    background-image: linear-gradient(to right, #ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4));
+}
+
+/* topleft styles */
+
+.style-gay-diagonal-topleft {
+    background-image: linear-gradient(135deg, #e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5));
+}
+
+.style-trans-diagonal-topleft {
+    background-image: linear-gradient(135deg, #5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4));
+}
+
+.style-bi-diagonal-topleft {
+    background-image: linear-gradient(135deg, #d60270 calc((100%/5)*1), 
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4),
+    #0038a8 calc((100%/5)*4));
+}
+
+.style-lesbian-diagonal-topleft {
+    background-image: linear-gradient(135deg, #d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4));
+}
+
+.style-asexual-diagonal-topleft {
+    background-image: linear-gradient(135deg, #000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4));
+}
+
+.style-nonbinary-diagonal-topleft {
+    background-image: linear-gradient(135deg, #fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4));
+}
+
+.style-genderfluid-diagonal-topleft {
+    background-image: linear-gradient(135deg, #ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4));
+}
+
+/* topright styles */
+
+.style-gay-diagonal-topright {
+    background-image: linear-gradient(-135deg, #e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5));
+}
+
+.style-trans-diagonal-topright {
+    background-image: linear-gradient(-135deg, #5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4));
+}
+
+.style-bi-diagonal-topright {
+    background-image: linear-gradient(-135deg, #d60270 calc((100%/5)*1), 
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4),
+    #0038a8 calc((100%/5)*4));
+}
+
+.style-lesbian-diagonal-topright {
+    background-image: linear-gradient(-135deg, #d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4));
+}
+
+.style-asexual-diagonal-topright {
+    background-image: linear-gradient(-135deg, #000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4));
+}
+
+.style-nonbinary-diagonal-topleft {
+    background-image: linear-gradient(-135deg, #fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4));
+}
+
+.style-genderfluid-diagonal-topright {
+    background-image: linear-gradient(-135deg, #ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4));
+}
+
+/* bottomright styles */
+
+.style-gay-diagonal-bottomright {
+    background-image: linear-gradient(-45deg, #e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5));
+}
+
+.style-trans-diagonal-bottomright {
+    background-image: linear-gradient(-45deg, #5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4));
+}
+
+.style-bi-diagonal-bottomright {
+    background-image: linear-gradient(-45deg, #d60270 calc((100%/5)*1), 
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4),
+    #0038a8 calc((100%/5)*4));
+}
+
+.style-lesbian-diagonal-bottomright {
+    background-image: linear-gradient(-45deg, #d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4));
+}
+
+.style-asexual-diagonal-bottomright {
+    background-image: linear-gradient(-45deg, #000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4));
+}
+
+.style-nonbinary-diagonal-bottomright {
+    background-image: linear-gradient(-45deg, #fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4));
+}
+
+.style-genderfluid-diagonal-bottomright {
+    background-image: linear-gradient(-45deg, #ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4));
+}
+
+/* bottomleft styles */
+
+.style-gay-diagonal-bottomleft {
+    background-image: linear-gradient(45deg, #e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5));
+}
+
+.style-trans-diagonal-bottomleft {
+    background-image: linear-gradient(45deg, #5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4));
+}
+
+.style-bi-diagonal-bottomleft {
+    background-image: linear-gradient(45deg, #d60270 calc((100%/5)*1), 
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4),
+    #0038a8 calc((100%/5)*4));
+}
+
+.style-lesbian-diagonal-bottomleft {
+    background-image: linear-gradient(45deg, #d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4));
+}
+
+.style-asexual-diagonal-bottomleft {
+    background-image: linear-gradient(45deg, #000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4));
+}
+
+.style-nonbinary-diagonal-bottomleft {
+    background-image: linear-gradient(45deg, #fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4));
+}
+
+.style-genderfluid-diagonal-bottomleft {
+    background-image: linear-gradient(45deg, #ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4));
+}
+
+/* Radial styles */
+
+.style-gay-radial {
+    background-image: radial-gradient(#e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5));
+}
+
+.style-trans-radial {
+    background-image: radial-gradient(#5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4));
+}
+
+.style-bi-radial {
+    background-image: radial-gradient(#d60270 calc((100%/5)*1), 
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4),
+    #0038a8 calc((100%/5)*4));
+}
+
+.style-lesbian-radial {
+    background-image: radial-gradient(#d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4));
+}
+
+.style-asexual-radial {
+    background-image: radial-gradient(#000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4));
+}
+
+.style-nonbinary-radial {
+    background-image: radial-gradient(#fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4));
+}
+
+.style-genderfluid-radial {
+    background-image: radial-gradient(#ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4));
+}
+
+/* Smooth styles */
+
+.style-gay-smooth {
+    background-image: radial-gradient(#e40303, 
+    #ff8c00,
+    #ffed00,
+    #008026,
+    #004dff,
+    #750787);
+}
+
+.style-trans-smooth {
+    background-image: radial-gradient(#5bcefa, 
+    #f5a9b8,
+    #ffffff,
+    #f5a9b8,
+    #5bcefa);
+}
+
+.style-bi-smooth {
+    background-image: radial-gradient(#d60270, 
+    #d60270,
+    #9b4f96,
+    #0038a8,
+    #0038a8);
+}
+
+.style-lesbian-smooth {
+    background-image: radial-gradient(#d52d00, 
+    #ff9a56,
+    #ffffff,
+    #d362a4,
+    #a30262);
+}
+
+.style-asexual-smooth {
+    background-image: radial-gradient(#000000, 
+    #a3a3a3,
+    #ffffff,
+    #800080);
+}
+
+.style-nonbinary-smooth {
+    background-image: radial-gradient(#fff430, 
+    #ffffff,
+    #9c59d1,
+    #000000);
+}
+
+.style-genderfluid-smooth {
+    background-image: radial-gradient(#ff75a2, 
+    #ffffff,
+    #be18d6,
+    #000000,
+    #333ebd);
+}
+
+/* Border styles */
+
+.style-gay-border {
+    border: 3px solid;
+    border-image-source: linear-gradient(#e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5));
+    border-image-slice: 3;
+}
+
+.style-trans-border {
+    border: 3px solid;
+    border-image-source: linear-gradient(#5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4));
+    border-image-slice: 3;
+}
+
+.style-bi-border {
+    border: 3px solid;
+    border-image-source: linear-gradient(#d60270 calc((100%/5)*1), 
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4),
+    #0038a8 calc((100%/5)*4));
+    border-image-slice: 3;
+}
+
+.style-lesbian-border {
+    border: 3px solid;
+    border-image-source: linear-gradient(#d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4));
+    border-image-slice: 3;
+}
+
+.style-asexual-border {
+    border: 3px solid;
+    border-image-source: linear-gradient(#000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4));
+    border-image-slice: 3;
+}
+
+.style-nonbinary-border {
+    border: 3px solid;
+    border-image-source: linear-gradient(#fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4));
+    border-image-slice: 3;
+}
+
+.style-genderfluid-border {
+    border: 3px solid;
+    border-image-source: linear-gradient(#ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4));
+    border-image-slice: 3;
+}
