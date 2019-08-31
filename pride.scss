@@ -1,0 +1,121 @@
+$flag-asexual:
+    #000000 calc((100%/4)*1), 
+    #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
+    #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3),
+    #800080 calc((100%/4)*3), #800080 calc((100%/4)*4);
+$flag-bisexual:
+    #d60270 calc((100%/5)*1), #d60270 calc((100%/5)*2),
+    #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3),
+    #0038a8 calc((100%/5)*3), #0038a8 calc((100%/5)*4);
+$flag-gay:
+    #e40303 calc((100%/6)*1), 
+    #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2),
+    #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3),
+    #008026 calc((100%/6)*3), #008026 calc((100%/6)*4),
+    #004dff calc((100%/6)*4), #004dff calc((100%/6)*5),
+    #750787 calc((100%/6)*5);
+$flag-genderfluid:
+    #ff75a2 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
+    #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
+    #333ebd calc((100%/5)*4);
+$flag-lesbian:
+    #d52d00 calc((100%/5)*1), 
+    #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
+    #a30262 calc((100%/5)*4);
+$flag-nonbinary:
+    #fff430 calc((100%/4)*1), 
+    #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
+    #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
+    #000000 calc((100%/4)*3), #000000 calc((100%/4)*4);
+$flag-transgender:
+    #5bcefa calc((100%/5)*1), 
+    #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
+    #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
+    #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4),
+    #5bcefa calc((100%/5)*4);
+
+$flags: (
+    "ace": $flag-asexual,
+    "bi": $flag-bisexual,
+    "gay": $flag-gay,
+    "gendefluid": $flag-genderfluid,
+    "lesbian": $flag-lesbian,
+    "nb": $flag-nonbinary,
+    "trans": $flag-transgender
+);
+
+@each $name, $flag in $flags {
+    .pridecss {
+        &--#{$name} {
+            background-image: linear-gradient($flag);
+        }
+        &--horizontal--#{$name} {
+            background-image: linear-gradient(to right, $flag);
+        }
+        &--topleft--#{$name} {
+            background-image: linear-gradient(135deg, $flag);
+        }
+        &--topright--#{$name} {
+            background-image: linear-gradient(-135deg, $flag);
+        }
+        &--bottomright--#{$name} {
+            background-image: linear-gradient(-45deg, $flag);
+        }
+        &--bottomleft--#{$name} {
+            background-image: linear-gradient(45deg, $flag);
+        }
+        &--radial--#{$name} {
+            background-image: radial-gradient(circle, $flag);
+            &--top {
+                background-image: radial-gradient(ellipse at top, $flag);
+            }
+            &--bottom {
+                background-image: radial-gradient(ellipse at bottom, $flag);
+            }
+            &--left {
+                background-image: radial-gradient(ellipse at left, $flag);
+            }
+            &--right {
+                background-image: radial-gradient(ellipse at right, $flag);
+            }
+            &--topleft {
+                background-image: radial-gradient(ellipse at top left, $flag);
+            }
+            &--topright {
+                background-image: radial-gradient(ellipse at top right, $flag);
+            }
+            &--bottomright {
+                background-image: radial-gradient(ellipse at bottom right, $flag);
+            }
+            &--bottomleft {
+                background-image: radial-gradient(ellipse at bottom left, $flag);
+            }
+        }
+        &--border--#{$name} {
+            &--thin {
+                border-image-source: linear-gradient($flag);
+                border: 1px solid;
+                border-image-slice: 1;
+            }
+            &--medium {
+                border-image-source: linear-gradient($flag);
+                border: 3px solid;
+                border-image-slice: 3;
+            }
+            &--thick {
+                border-image-source: linear-gradient($flag);
+                border: 5px solid;
+                border-image-slice: 5;
+            }
+            &--dummythicc {
+                border-image-source: linear-gradient($flag);
+                border: 50px solid;
+                border-image-slice: 50;
+            }
+        }
+    }
+}
