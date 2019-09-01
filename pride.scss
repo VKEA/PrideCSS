@@ -68,52 +68,54 @@ $flags: (
         &--bottomleft--#{$name} {
             background-image: linear-gradient(45deg, $flag);
         }
-        &--radial--#{$name} {
-            background-image: radial-gradient(circle, $flag);
-            &--top {
+        &--radial {
+            &--#{$name} {
+                background-image: radial-gradient(circle, $flag);
+            }
+            &--top--#{$name} {
                 background-image: radial-gradient(ellipse at top, $flag);
             }
-            &--bottom {
+            &--bottom--#{$name} {
                 background-image: radial-gradient(ellipse at bottom, $flag);
             }
-            &--left {
+            &--left--#{$name} {
                 background-image: radial-gradient(ellipse at left, $flag);
             }
-            &--right {
+            &--right--#{$name} {
                 background-image: radial-gradient(ellipse at right, $flag);
             }
-            &--topleft {
+            &--topleft--#{$name} {
                 background-image: radial-gradient(ellipse at top left, $flag);
             }
-            &--topright {
+            &--topright--#{$name} {
                 background-image: radial-gradient(ellipse at top right, $flag);
             }
-            &--bottomright {
+            &--bottomright--#{$name} {
                 background-image: radial-gradient(ellipse at bottom right, $flag);
             }
-            &--bottomleft {
+            &--bottomleft--#{$name} {
                 background-image: radial-gradient(ellipse at bottom left, $flag);
             }
         }
-        &--border--#{$name} {
-            &--thin {
-                border-image-source: linear-gradient($flag);
+        &--border {
+            &--thin--#{$name} {
                 border: 1px solid;
+                border-image-source: linear-gradient($flag);
                 border-image-slice: 1;
             }
-            &--medium {
-                border-image-source: linear-gradient($flag);
+            &--medium--#{$name} {
                 border: 3px solid;
+                border-image-source: linear-gradient($flag);
                 border-image-slice: 3;
             }
-            &--thick {
-                border-image-source: linear-gradient($flag);
+            &--thick--#{$name} {
                 border: 5px solid;
+                border-image-source: linear-gradient($flag);
                 border-image-slice: 5;
             }
-            &--dummythicc {
-                border-image-source: linear-gradient($flag);
+            &--dummythicc--#{$name} {
                 border: 50px solid;
+                border-image-source: linear-gradient($flag);
                 border-image-slice: 50;
             }
         }
