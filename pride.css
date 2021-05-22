@@ -461,68 +461,68 @@
   }
   
   .pridecss--intersex {
-    background-image: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--horizontal--intersex {
-    background-image: linear-gradient(to right, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: linear-gradient(to right, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--topleft--intersex {
-    background-image: linear-gradient(135deg, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: linear-gradient(135deg, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--topright--intersex {
-    background-image: linear-gradient(-135deg, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: linear-gradient(-135deg, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--bottomright--intersex {
-    background-image: linear-gradient(-45deg, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: linear-gradient(-45deg, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--bottomleft--intersex {
-    background-image: linear-gradient(45deg, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: linear-gradient(45deg, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--intersex {
-    background-image: radial-gradient(circle, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(circle, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--top--intersex {
-    background-image: radial-gradient(ellipse at top, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(ellipse at top, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--bottom--intersex {
-    background-image: radial-gradient(ellipse at bottom, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(ellipse at bottom, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--left--intersex {
-    background-image: radial-gradient(ellipse at left, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(ellipse at left, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--right--intersex {
-    background-image: radial-gradient(ellipse at right, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(ellipse at right, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--topleft--intersex {
-    background-image: radial-gradient(ellipse at top left, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(ellipse at top left, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--topright--intersex {
-    background-image: radial-gradient(ellipse at top right, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(ellipse at top right, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--bottomright--intersex {
-    background-image: radial-gradient(ellipse at bottom right, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(ellipse at bottom right, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--radial--bottomleft--intersex {
-    background-image: radial-gradient(ellipse at bottom left, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    background-image: radial-gradient(ellipse at bottom left, #D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
   }
   .pridecss--border--thin--intersex {
     border: 1px solid;
-    border-image-source: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    border-image-source: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
     border-image-slice: 1;
   }
   .pridecss--border--medium--intersex {
     border: 3px solid;
-    border-image-source: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    border-image-source: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
     border-image-slice: 3;
   }
   .pridecss--border--thick--intersex {
     border: 5px solid;
-    border-image-source: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    border-image-source: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
     border-image-slice: 5;
   }
   .pridecss--border--dummythicc--intersex {
     border: 50px solid;
-    border-image-source: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #F0B8D5 calc((100%/6)*3), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+    border-image-source: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
     border-image-slice: 50;
   }
   
