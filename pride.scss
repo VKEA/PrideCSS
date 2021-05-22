@@ -1,3 +1,13 @@
+$flag-androgyne:
+    #DB4E62 calc((100%/5)*1), 
+    #C080D8 calc((100%/5)*1), #C080D8 calc((100%/5)*2),
+    #E9CC54 calc((100%/5)*2), #E9CC54 calc((100%/5)*3),
+    #696969 calc((100%/5)*3), #696969 calc((100%/5)*4),
+    #5381D8 calc((100%/5)*4);
+$flag-androgyne2:
+    #FE007F calc((100%/3)*1), 
+    #9833FF calc((100%/3)*1), #9833FF calc((100%/3)*2),
+    #00B7E8 calc((100%/3)*2), #00B7E8 calc((100%/3)*3);
 $flag-asexual:
     #000000 calc((100%/4)*1), 
     #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2),
@@ -20,17 +30,63 @@ $flag-genderfluid:
     #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
     #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
     #333ebd calc((100%/5)*4);
+$flag-gilbertbaker:
+    #FF69B5 calc((100%/8)*1), 
+    #FF0000 calc((100%/8)*1), #FF0000 calc((100%/8)*2),
+    #FF8F00 calc((100%/8)*2), #FF8F00 calc((100%/8)*3),
+    #FFFF00 calc((100%/8)*3), #FFFF00 calc((100%/8)*4),
+    #008F00 calc((100%/8)*4), #008F00 calc((100%/8)*5),
+    #00C1C1 calc((100%/8)*5), #00C1C1 calc((100%/8)*6),
+    #3E0099 calc((100%/8)*6), #3E0099 calc((100%/8)*7),
+    #8F008F calc((100%/8)*7);
+$flag-intersex:
+    #D7ABCF calc((100%/6)*1), 
+    #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2),
+    #9FCDEF calc((100%/6)*2),
+    #F0B8D5 calc((100%/6)*3),
+    #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5),
+    #D7ABCF calc((100%/6)*5);
 $flag-lesbian:
     #d52d00 calc((100%/5)*1), 
     #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2),
     #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3),
     #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4),
     #a30262 calc((100%/5)*4);
+$flag-lesbian2:
+    #d52d00 calc((100%/7)*1), 
+    #ef7427 calc((100%/7)*1), #ef7427 calc((100%/7)*2),
+    #ff9a56 calc((100%/7)*2), #ff9a56 calc((100%/7)*3),
+    #ffffff calc((100%/7)*3), #ffffff calc((100%/7)*4),
+    #d362a4 calc((100%/7)*4), #d362a4 calc((100%/7)*5),
+    #C23A92 calc((100%/7)*5), #C23A92 calc((100%/7)*6),
+    #a30262 calc((100%/7)*6);
+$flag-lesbian3:
+    #663399 calc((100%/4)*1), 
+    #FFCC33 calc((100%/4)*1), #FFCC33 calc((100%/4)*2),
+    #66CC33 calc((100%/4)*2), #66CC33 calc((100%/4)*3),
+    #FF6699 calc((100%/4)*3), #FF6699 calc((100%/4)*4);
 $flag-nonbinary:
     #fff430 calc((100%/4)*1), 
     #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
     #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3),
     #000000 calc((100%/4)*3), #000000 calc((100%/4)*4);
+$flag-pansexual:
+    #FF1B8D calc((100%/3)*1), 
+    #FFD900 calc((100%/3)*1), #FFD900 calc((100%/3)*2),
+    #1BB2FF calc((100%/3)*2), #1BB2FF calc((100%/3)*3);
+$flag-philadelphia:
+    #000000 calc((100%/8)*1), 
+    #794E10 calc((100%/8)*1), #794E10 calc((100%/8)*2),
+    #e40303 calc((100%/8)*2), #e40303 calc((100%/8)*3),
+    #ff8c00 calc((100%/8)*3), #ff8c00 calc((100%/8)*4),
+    #ffed00 calc((100%/8)*4), #ffed00 calc((100%/8)*5),
+    #008026 calc((100%/8)*5), #008026 calc((100%/8)*6),
+    #004dff calc((100%/8)*6), #004dff calc((100%/8)*7),
+    #750787 calc((100%/8)*7);
+$flag-polysexual:
+    #F615BA calc((100%/3)*1), 
+    #01D669 calc((100%/3)*1), #01D669 calc((100%/3)*2),
+    #1593F6 calc((100%/3)*2), #1593F6 calc((100%/3)*3);
 $flag-transgender:
     #5bcefa calc((100%/5)*1), 
     #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2),
@@ -39,12 +95,21 @@ $flag-transgender:
     #5bcefa calc((100%/5)*4);
 
 $flags: (
+    "androgyne": $flag-androgyne,
+    "androgyne2": $flag-androgyne2,
     "ace": $flag-asexual,
     "bi": $flag-bisexual,
     "gay": $flag-gay,
     "genderfluid": $flag-genderfluid,
+    "gilbertbaker": $flag-gilbertbaker,
+    "intersex": $flag-intersex,
     "lesbian": $flag-lesbian,
+    "lesbian2": $flag-lesbian2,
+    "lesbian3": $flag-lesbian3,
     "nb": $flag-nonbinary,
+    "pan": $flag-pansexual,
+    "philadelphia": $flag-philadelphia,
+    "poly": $flag-polysexual,
     "trans": $flag-transgender
 );
 
