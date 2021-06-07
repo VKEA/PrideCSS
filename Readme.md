@@ -6,7 +6,7 @@ You'll need to compile it to CSS to use it on a website, or use a CDN, which wil
 
 ## Usage
 
-PrideCSS class names start with the word `pride`, followed by BEM modifiers.
+PrideCSS class names start with the word `pride`, followed by Block Element Modifier (BEM) modifiers.
 
 Example
 
@@ -23,3 +23,59 @@ Examples
 <div class="pride--horizontal--gay"></div>
 <div class="pride--topright--ace"></div>
 ```
+
+## Modifiers
+
+### Pride flags
+- agender
+- agender2
+- androgyne
+- androgyne2
+- aro
+- aro2
+- aro3
+- ace
+- bi
+- demiboy
+- demigender
+- demigirl
+- gay
+- genderfluid
+- genderqueer
+- gilbertbaker
+- intersex
+- lesbian
+- lesbian2
+- lesbian3
+- mlm
+- mlm2
+- mlm3
+- neutrois
+- nb
+- nb2
+- nb3
+- pan
+- philadelphia
+- poly
+- trans
+
+### Gradient directions
+- {name}
+- horizontal--{name}
+- topleft--{name}
+- topright--{name}
+- bottomright--{name}
+- bottomleft--{name}
+- radial--{name}
+- radial--top--{name}
+- radial--bottom--{name}
+- radial--left--{name}
+- radial--right--{name}
+- radial--topleft--{name}
+- radial--topright--{name}
+- radial--bottomright--{name}
+- radial--bottomleft--{name}
+- border--thin--{name}
+- border--thin--{name}
+- border--thick--{name}
+- border--dummythicc--{name}
