@@ -1,3 +1,17 @@
+$flag-agender:
+    #000000 calc((100%/7)*1), 
+    #BCC5C6 calc((100%/7)*1), #BCC5C6 calc((100%/7)*2),
+    #ffffff calc((100%/7)*2), #ffffff calc((100%/7)*3),
+    #B5F680 calc((100%/7)*3), #B5F680 calc((100%/7)*4),
+    #ffffff calc((100%/7)*4), #ffffff calc((100%/7)*5),
+    #BCC5C6 calc((100%/7)*5), #BCC5C6 calc((100%/7)*6),
+    #000000 calc((100%/7)*6);
+$flag-agender2:
+    #000000 calc((100%/5)*1), 
+    #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2),
+    #B5F680 calc((100%/5)*2), #B5F680 calc((100%/5)*3),
+    #ffffff calc((100%/5)*3), #ffffff calc((100%/5)*4),
+    #000000 calc((100%/5)*4);
 $flag-androgyne:
     #DB4E62 calc((100%/5)*1), 
     #C080D8 calc((100%/5)*1), #C080D8 calc((100%/5)*2),
@@ -71,6 +85,10 @@ $flag-genderfluid:
     #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3),
     #000000 calc((100%/5)*3), #000000 calc((100%/5)*4),
     #333ebd calc((100%/5)*4);
+$flag-genderqueer:
+    #B899DD calc((100%/3)*1), 
+    #ffffff calc((100%/3)*1), #ffffff calc((100%/3)*2),
+    #6B8E3A calc((100%/3)*2);
 $flag-gilbertbaker:
     #FF69B5 calc((100%/8)*1), 
     #FF0000 calc((100%/8)*1), #FF0000 calc((100%/8)*2),
@@ -130,6 +148,10 @@ $flag-mlm3:
     #7A41A9 calc((100%/7)*4), #7A41A9 calc((100%/7)*5),
     #69379A calc((100%/7)*5), #69379A calc((100%/7)*6),
     #502887 calc((100%/7)*6);
+$flag-neutrois:
+    #000000 calc((100%/3)*1), 
+    #ffffff calc((100%/3)*1), #ffffff calc((100%/3)*2),
+    #2F9C1D calc((100%/3)*2);
 $flag-nonbinary:
     #fff430 calc((100%/4)*1), 
     #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2),
@@ -170,6 +192,8 @@ $flag-transgender:
     #5bcefa calc((100%/5)*4);
 
 $flags: (
+    "agender": $flag-agender,
+    "agender2": $flag-agender2,
     "androgyne": $flag-androgyne,
     "androgyne2": $flag-androgyne2,
     "aro": $flag-aromantic,
@@ -182,6 +206,7 @@ $flags: (
     "demigirl": $flag-demigirl,
     "gay": $flag-gay,
     "genderfluid": $flag-genderfluid,
+    "genderqueer": $flag-genderqueer,
     "gilbertbaker": $flag-gilbertbaker,
     "intersex": $flag-intersex,
     "lesbian": $flag-lesbian,
@@ -190,6 +215,7 @@ $flags: (
     "mlm": $flag-mlm,
     "mlm2": $flag-mlm2,
     "mlm3": $flag-mlm3,
+    "neutrois": $flag-neutrois,
     "nb": $flag-nonbinary,
     "nb2": $flag-nonbinary2,
     "nb3": $flag-nonbinary3,
