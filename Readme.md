@@ -1,6 +1,6 @@
-## PrideCSS, a BEM-compliant SCSS library
+## PrideCSS, a BEM-compliant SCSS library for adding pride flags
 
-PriceCSS is a SCSS library for adding pride flags to your HTML elements.
+PrideCSS is a SCSS library for adding pride flags to your HTML elements.
 
 You'll need to compile it to CSS to use it on a website, or use a CDN, which will be updated in the future.
 

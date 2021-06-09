@@ -1,0 +1,25 @@
+{
+  "name": "pridecss",
+  "version": "3.0.0",
+  "description": "PrideCSS is a SCSS library for adding pride flags to your HTML elements.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VKEA/PrideCSS.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VKEA/PrideCSS/issues"
+  },
+  "homepage": "https://github.com/VKEA/PrideCSS#readme",
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "grunt": "^1.4.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0"
+  }
+}

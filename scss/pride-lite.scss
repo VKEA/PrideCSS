@@ -1,0 +1,9 @@
+@use 'flags';
+
+@each $name, $flag in flags.$flags {
+    .pride {
+        &--#{$name} {
+            background-image: linear-gradient($flag);
+        }
+    }
+}

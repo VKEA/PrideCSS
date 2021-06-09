@@ -1,0 +1,123 @@
+.pride--agender {
+  background-image: linear-gradient(#000000 calc((100%/7)*1), #BCC5C6 calc((100%/7)*1), #BCC5C6 calc((100%/7)*2), #ffffff calc((100%/7)*2), #ffffff calc((100%/7)*3), #B5F680 calc((100%/7)*3), #B5F680 calc((100%/7)*4), #ffffff calc((100%/7)*4), #ffffff calc((100%/7)*5), #BCC5C6 calc((100%/7)*5), #BCC5C6 calc((100%/7)*6), #000000 calc((100%/7)*6));
+}
+
+.pride--agender2 {
+  background-image: linear-gradient(#000000 calc((100%/5)*1), #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2), #B5F680 calc((100%/5)*2), #B5F680 calc((100%/5)*3), #ffffff calc((100%/5)*3), #ffffff calc((100%/5)*4), #000000 calc((100%/5)*4));
+}
+
+.pride--androgyne {
+  background-image: linear-gradient(#DB4E62 calc((100%/5)*1), #C080D8 calc((100%/5)*1), #C080D8 calc((100%/5)*2), #E9CC54 calc((100%/5)*2), #E9CC54 calc((100%/5)*3), #696969 calc((100%/5)*3), #696969 calc((100%/5)*4), #5381D8 calc((100%/5)*4));
+}
+
+.pride--androgyne2 {
+  background-image: linear-gradient(#FE007F calc((100%/3)*1), #9833FF calc((100%/3)*1), #9833FF calc((100%/3)*2), #00B7E8 calc((100%/3)*2));
+}
+
+.pride--aro {
+  background-image: linear-gradient(#3DA542 calc((100%/5)*1), #A9D27A calc((100%/5)*1), #A9D27A calc((100%/5)*2), #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3), #A9A9A9 calc((100%/5)*3), #A9A9A9 calc((100%/5)*4), #000000 calc((100%/5)*4));
+}
+
+.pride--aro2 {
+  background-image: linear-gradient(#3DA542 calc((100%/5)*1), #A9D27A calc((100%/5)*1), #A9D27A calc((100%/5)*2), #FFFF66 calc((100%/5)*2), #FFFF66 60%, #A9A9A9 calc((100%/5)*3), #A9A9A9 calc((100%/5)*4), #000000 calc((100%/5)*4));
+}
+
+.pride--aro3 {
+  background-image: linear-gradient(#7DBE00 calc((100%/4)*1), #FFF300 calc((100%/4)*1), #FFF300 calc((100%/4)*2), #FF7000 calc((100%/4)*2), #FF7000 calc((100%/4)*3), #000000 calc((100%/4)*3));
+}
+
+.pride--ace {
+  background-image: linear-gradient(#000000 calc((100%/4)*1), #a3a3a3 calc((100%/4)*1), #a3a3a3 calc((100%/4)*2), #ffffff calc((100%/4)*2), #ffffff calc((100%/4)*3), #800080 calc((100%/4)*3));
+}
+
+.pride--bi {
+  background-image: linear-gradient(#d60270 calc((100%/5)*2), #9b4f96 calc((100%/5)*2), #9b4f96 calc((100%/5)*3), #0038a8 calc((100%/5)*3));
+}
+
+.pride--demiboy {
+  background-image: linear-gradient(#7F7F7F calc((100%/7)*1), #C3C3C3 calc((100%/7)*1), #C3C3C3 calc((100%/7)*2), #9AD9EA calc((100%/7)*2), #9AD9EA calc((100%/7)*3), #ffffff calc((100%/7)*3), #ffffff calc((100%/7)*4), #9AD9EA calc((100%/7)*4), #9AD9EA calc((100%/7)*5), #C3C3C3 calc((100%/7)*5), #C3C3C3 calc((100%/7)*6), #7F7F7F calc((100%/7)*6));
+}
+
+.pride--demigender {
+  background-image: linear-gradient(#7F7F7F calc((100%/7)*1), #C3C3C3 calc((100%/7)*1), #C3C3C3 calc((100%/7)*2), #FBFF74 calc((100%/7)*2), #FBFF74 calc((100%/7)*3), #ffffff calc((100%/7)*3), #ffffff calc((100%/7)*4), #FBFF74 calc((100%/7)*4), #FBFF74 calc((100%/7)*5), #C3C3C3 calc((100%/7)*5), #C3C3C3 calc((100%/7)*6), #7F7F7F calc((100%/7)*6));
+}
+
+.pride--demigirl {
+  background-image: linear-gradient(#7F7F7F calc((100%/7)*1), #C3C3C3 calc((100%/7)*1), #C3C3C3 calc((100%/7)*2), #FEAEC9 calc((100%/7)*2), #FEAEC9 calc((100%/7)*3), #ffffff calc((100%/7)*3), #ffffff calc((100%/7)*4), #FEAEC9 calc((100%/7)*4), #FEAEC9 calc((100%/7)*5), #C3C3C3 calc((100%/7)*5), #C3C3C3 calc((100%/7)*6), #7F7F7F calc((100%/7)*6));
+}
+
+.pride--gay {
+  background-image: linear-gradient(#e40303 calc((100%/6)*1), #ff8c00 calc((100%/6)*1), #ff8c00 calc((100%/6)*2), #ffed00 calc((100%/6)*2), #ffed00 calc((100%/6)*3), #008026 calc((100%/6)*3), #008026 calc((100%/6)*4), #004dff calc((100%/6)*4), #004dff calc((100%/6)*5), #750787 calc((100%/6)*5));
+}
+
+.pride--genderfluid {
+  background-image: linear-gradient(#ff75a2 calc((100%/5)*1), #ffffff calc((100%/5)*1), #ffffff calc((100%/5)*2), #be18d6 calc((100%/5)*2), #be18d6 calc((100%/5)*3), #000000 calc((100%/5)*3), #000000 calc((100%/5)*4), #333ebd calc((100%/5)*4));
+}
+
+.pride--genderqueer {
+  background-image: linear-gradient(#B899DD calc((100%/3)*1), #ffffff calc((100%/3)*1), #ffffff calc((100%/3)*2), #6B8E3A calc((100%/3)*2));
+}
+
+.pride--gilbertbaker {
+  background-image: linear-gradient(#FF69B5 calc((100%/8)*1), #FF0000 calc((100%/8)*1), #FF0000 calc((100%/8)*2), #FF8F00 calc((100%/8)*2), #FF8F00 calc((100%/8)*3), #FFFF00 calc((100%/8)*3), #FFFF00 calc((100%/8)*4), #008F00 calc((100%/8)*4), #008F00 calc((100%/8)*5), #00C1C1 calc((100%/8)*5), #00C1C1 calc((100%/8)*6), #3E0099 calc((100%/8)*6), #3E0099 calc((100%/8)*7), #8F008F calc((100%/8)*7));
+}
+
+.pride--intersex {
+  background-image: linear-gradient(#D7ABCF calc((100%/6)*1), #FFFFFF calc((100%/6)*1), #FFFFFF calc((100%/6)*2), #9FCDEF calc((100%/6)*2), #9FCDEF calc((100%/6)*2.5), #F0B8D5 calc((100%/6)*3.5), #F0B8D5 calc((100%/6)*4), #FFFFFF calc((100%/6)*4), #FFFFFF calc((100%/6)*5), #D7ABCF calc((100%/6)*5));
+}
+
+.pride--lesbian {
+  background-image: linear-gradient(#d52d00 calc((100%/5)*1), #ff9a56 calc((100%/5)*1), #ff9a56 calc((100%/5)*2), #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3), #d362a4 calc((100%/5)*3), #d362a4 calc((100%/5)*4), #a30262 calc((100%/5)*4));
+}
+
+.pride--lesbian2 {
+  background-image: linear-gradient(#d52d00 calc((100%/7)*1), #ef7427 calc((100%/7)*1), #ef7427 calc((100%/7)*2), #ff9a56 calc((100%/7)*2), #ff9a56 calc((100%/7)*3), #ffffff calc((100%/7)*3), #ffffff calc((100%/7)*4), #d362a4 calc((100%/7)*4), #d362a4 calc((100%/7)*5), #C23A92 calc((100%/7)*5), #C23A92 calc((100%/7)*6), #a30262 calc((100%/7)*6));
+}
+
+.pride--lesbian3 {
+  background-image: linear-gradient(#663399 calc((100%/4)*1), #FFCC33 calc((100%/4)*1), #FFCC33 calc((100%/4)*2), #66CC33 calc((100%/4)*2), #66CC33 calc((100%/4)*3), #FF6699 calc((100%/4)*3));
+}
+
+.pride--mlm {
+  background-image: linear-gradient(#078E70 calc((100%/7)*1), #26CEAA calc((100%/7)*1), #26CEAA calc((100%/7)*2), #9AE8C1 calc((100%/7)*2), #9AE8C1 calc((100%/7)*3), #ffffff calc((100%/7)*3), #ffffff calc((100%/7)*4), #7BADE2 calc((100%/7)*4), #7BADE2 calc((100%/7)*5), #5049CB calc((100%/7)*5), #5049CB calc((100%/7)*6), #3D1A78 calc((100%/7)*6));
+}
+
+.pride--mlm2 {
+  background-image: linear-gradient(#039070 calc((100%/7)*1), #01C9BC calc((100%/7)*1), #01C9BC calc((100%/7)*2), #86EEED calc((100%/7)*2), #86EEED calc((100%/7)*3), #ffffff calc((100%/7)*3), #ffffff calc((100%/7)*4), #7DCAF8 calc((100%/7)*4), #7DCAF8 calc((100%/7)*5), #049CF0 calc((100%/7)*5), #049CF0 calc((100%/7)*6), #022A8A calc((100%/7)*6));
+}
+
+.pride--mlm3 {
+  background-image: linear-gradient(#FFDB52 calc((100%/7)*1), #FFBE00 calc((100%/7)*1), #FFBE00 calc((100%/7)*2), #FF8A20 calc((100%/7)*2), #FF8A20 calc((100%/7)*3), #ffffff calc((100%/7)*3), #ffffff calc((100%/7)*4), #7A41A9 calc((100%/7)*4), #7A41A9 calc((100%/7)*5), #69379A calc((100%/7)*5), #69379A calc((100%/7)*6), #502887 calc((100%/7)*6));
+}
+
+.pride--neutrois {
+  background-image: linear-gradient(#000000 calc((100%/3)*1), #ffffff calc((100%/3)*1), #ffffff calc((100%/3)*2), #2F9C1D calc((100%/3)*2));
+}
+
+.pride--nb {
+  background-image: linear-gradient(#fff430 calc((100%/4)*1), #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2), #9c59d1 calc((100%/4)*2), #9c59d1 calc((100%/4)*3), #000000 calc((100%/4)*3));
+}
+
+.pride--nb2 {
+  background-image: linear-gradient(#000000 calc((100%/4)*1), #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2), #FF7F26 calc((100%/4)*2), #FF7F26 calc((100%/4)*3), #B5E51D calc((100%/4)*3));
+}
+
+.pride--nb3 {
+  background-image: linear-gradient(#A349A3 calc((100%/4)*1), #ffffff calc((100%/4)*1), #ffffff calc((100%/4)*2), #FF7F26 calc((100%/4)*2), #FF7F26 calc((100%/4)*3), #B5E51D calc((100%/4)*3));
+}
+
+.pride--pan {
+  background-image: linear-gradient(#FF1B8D calc((100%/3)*1), #FFD900 calc((100%/3)*1), #FFD900 calc((100%/3)*2), #1BB2FF calc((100%/3)*2));
+}
+
+.pride--philadelphia {
+  background-image: linear-gradient(#000000 calc((100%/8)*1), #794E10 calc((100%/8)*1), #794E10 calc((100%/8)*2), #e40303 calc((100%/8)*2), #e40303 calc((100%/8)*3), #ff8c00 calc((100%/8)*3), #ff8c00 calc((100%/8)*4), #ffed00 calc((100%/8)*4), #ffed00 calc((100%/8)*5), #008026 calc((100%/8)*5), #008026 calc((100%/8)*6), #004dff calc((100%/8)*6), #004dff calc((100%/8)*7), #750787 calc((100%/8)*7));
+}
+
+.pride--poly {
+  background-image: linear-gradient(#F615BA calc((100%/3)*1), #01D669 calc((100%/3)*1), #01D669 calc((100%/3)*2), #1593F6 calc((100%/3)*2));
+}
+
+.pride--trans {
+  background-image: linear-gradient(#5bcefa calc((100%/5)*1), #f5a9b8 calc((100%/5)*1), #f5a9b8 calc((100%/5)*2), #ffffff calc((100%/5)*2), #ffffff calc((100%/5)*3), #f5a9b8 calc((100%/5)*3), #f5a9b8 calc((100%/5)*4), #5bcefa calc((100%/5)*4));
+}
