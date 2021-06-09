@@ -19,7 +19,7 @@
 }
 
 .pride--aro2 {
-  background-image: linear-gradient(#3da542 calc((100%/5) * 1), #a9d27a calc((100%/5) * 1), #a9d27a calc((100%/5) * 2), #ff6 calc((100%/5) * 2), #ff6 60%, #a9a9a9 calc((100%/5) * 3), #a9a9a9 calc((100%/5) * 4), #000 calc((100%/5) * 4));
+  background-image: linear-gradient(#3da542 calc((100%/5) * 1), #a9d27a calc((100%/5) * 1), #a9d27a calc((100%/5) * 2), #ff6 calc((100%/5) * 2), #ffff66 60%, #a9a9a9 calc((100%/5) * 3), #a9a9a9 calc((100%/5) * 4), #000 calc((100%/5) * 4));
 }
 
 .pride--aro3 {
@@ -114,7 +114,11 @@
   background-image: linear-gradient(#000 calc((100%/8) * 1), #794e10 calc((100%/8) * 1), #794e10 calc((100%/8) * 2), #e40303 calc((100%/8) * 2), #e40303 calc((100%/8) * 3), #ff8c00 calc((100%/8) * 3), #ff8c00 calc((100%/8) * 4), #ffed00 calc((100%/8) * 4), #ffed00 calc((100%/8) * 5), #008026 calc((100%/8) * 5), #008026 calc((100%/8) * 6), #004dff calc((100%/8) * 6), #004dff calc((100%/8) * 7), #750787 calc((100%/8) * 7));
 }
 
-.pride--poly {
+.pride--polygender {
+  background-image: linear-gradient(#000 calc((100%/5) * 1), #939393 calc((100%/5) * 1), #939393 calc((100%/5) * 2), #ec95c5 calc((100%/5) * 2), #ec95c5 calc((100%/5) * 3), #f5ed80 calc((100%/5) * 3), #f5ed80 calc((100%/5) * 4), #65bbe7 calc((100%/5) * 4));
+}
+
+.pride--polysexual {
   background-image: linear-gradient(#f615ba calc((100%/3) * 1), #01d669 calc((100%/3) * 1), #01d669 calc((100%/3) * 2), #1593f6 calc((100%/3) * 2));
 }
 

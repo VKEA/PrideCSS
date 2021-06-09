@@ -56,7 +56,7 @@ Examples
 - nb3
 - pan
 - philadelphia
-- poly
+- polysexual
 - trans
 
 ### Gradient directions
