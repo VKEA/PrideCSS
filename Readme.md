@@ -82,5 +82,5 @@ Examples
 
 ## CDN
 
-This is on a personal site, not ideal, but it's something.
+This is on a personal site, not ideal, but it's something:
 <https://ztfreak.kho.nu/pridecss/releases/2.1.css>
