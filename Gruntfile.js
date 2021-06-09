@@ -18,6 +18,19 @@ module.exports = function (grunt) {
                 }
             },
         },
+        stylelint: {
+            options: {
+                configFile: '.stylelintrc.json',
+                formatter: 'string',
+                ignoreDisables: false,
+                failOnError: true,
+                outputFile: '',
+                reportNeedlessDisables: false,
+                fix: true,
+                syntax: ''
+            },
+            src: ['**/*.{css,scss}']
+        },
         watch: {
             css: {
                 files: '**/*.scss',
@@ -26,6 +39,7 @@ module.exports = function (grunt) {
         }
     });
     grunt.loadNpmTasks('grunt-sass');
+    grunt.loadNpmTasks('grunt-stylelint');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('default', ['watch']);
 }
