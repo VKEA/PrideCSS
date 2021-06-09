@@ -56,6 +56,7 @@ Examples
 - nb3
 - pan
 - philadelphia
+- polygender
 - polysexual
 - trans
 
