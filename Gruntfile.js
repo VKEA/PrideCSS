@@ -26,7 +26,7 @@ module.exports = function (grunt) {
                 failOnError: true,
                 outputFile: '',
                 reportNeedlessDisables: false,
-                fix: false,
+                fix: true,
                 syntax: ''
             },
             src: ['**/*.{css,scss}']
