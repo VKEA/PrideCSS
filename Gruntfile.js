@@ -19,22 +19,24 @@ module.exports = function (grunt) {
             },
         },
         stylelint: {
-            options: {
-                configFile: '.stylelintrc.json',
-                formatter: 'string',
-                ignoreDisables: false,
-                failOnError: true,
-                outputFile: '',
-                reportNeedlessDisables: false,
-                fix: true,
-                syntax: ''
-            },
-            src: ['**/*.{css,scss}']
+            dist: {
+                options: {
+                    configFile: '.stylelintrc.json',
+                    formatter: 'string',
+                    ignoreDisables: false,
+                    failOnError: true,
+                    outputFile: '',
+                    reportNeedlessDisables: false,
+                    fix: true,
+                    syntax: ''
+                },
+                src: ['**/*.{css,scss}']
+            }
         },
         watch: {
             css: {
                 files: '**/*.scss',
-                tasks: ['sass']
+                tasks: ['sass', 'stylelint']
             }
         }
     });
