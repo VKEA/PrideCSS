@@ -64,6 +64,7 @@ Examples
 - polysexual
 - sapphic
 - trans
+- twink
 
 ### Gradient directions
 - {name}
