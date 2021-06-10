@@ -2937,3 +2937,87 @@
   border-image-source: linear-gradient(#5bcefa calc((100%/5) * 1), #f5a9b8 calc((100%/5) * 1), #f5a9b8 calc((100%/5) * 2), #fff calc((100%/5) * 2), #fff calc((100%/5) * 3), #f5a9b8 calc((100%/5) * 3), #f5a9b8 calc((100%/5) * 4), #5bcefa calc((100%/5) * 4));
   border-image-slice: 50;
 }
+
+.pride--twink {
+  background-image: linear-gradient(#ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--horizontal--twink {
+  background-image: linear-gradient(to right, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--topleft--twink {
+  background-image: linear-gradient(135deg, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--topright--twink {
+  background-image: linear-gradient(-135deg, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--bottomright--twink {
+  background-image: linear-gradient(-45deg, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--bottomleft--twink {
+  background-image: linear-gradient(45deg, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--twink {
+  background-image: radial-gradient(circle, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--top--twink {
+  background-image: radial-gradient(ellipse at top, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--bottom--twink {
+  background-image: radial-gradient(ellipse at bottom, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--left--twink {
+  background-image: radial-gradient(ellipse at left, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--right--twink {
+  background-image: radial-gradient(ellipse at right, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--topleft--twink {
+  background-image: radial-gradient(ellipse at top left, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--topright--twink {
+  background-image: radial-gradient(ellipse at top right, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--bottomright--twink {
+  background-image: radial-gradient(ellipse at bottom right, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--radial--bottomleft--twink {
+  background-image: radial-gradient(ellipse at bottom left, #ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--border--thin--twink {
+  border: 1px solid;
+  border-image-source: linear-gradient(#ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+  border-image-slice: 1;
+}
+
+.pride--border--medium--twink {
+  border: 3px solid;
+  border-image-source: linear-gradient(#ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+  border-image-slice: 3;
+}
+
+.pride--border--thick--twink {
+  border: 5px solid;
+  border-image-source: linear-gradient(#ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+  border-image-slice: 5;
+}
+
+.pride--border--dummythicc--twink {
+  border: 50px solid;
+  border-image-source: linear-gradient(#ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+  border-image-slice: 50;
+}

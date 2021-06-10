@@ -137,3 +137,7 @@
 .pride--trans {
   background-image: linear-gradient(#5bcefa calc((100%/5) * 1), #f5a9b8 calc((100%/5) * 1), #f5a9b8 calc((100%/5) * 2), #fff calc((100%/5) * 2), #fff calc((100%/5) * 3), #f5a9b8 calc((100%/5) * 3), #f5a9b8 calc((100%/5) * 4), #5bcefa calc((100%/5) * 4));
 }
+
+.pride--twink {
+  background-image: linear-gradient(#ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
