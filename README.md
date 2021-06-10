@@ -4,7 +4,7 @@
 
 PrideCSS is a SCSS library for adding pride flags to your HTML elements.
 
-You'll need to compile it to CSS to use it on a website, or use a CDN, which will be updated in the future.
+SCSS source can be found in the `scss`folder, compiled CSS can be found inside the`css` folder.
 
 ## Usage
 
@@ -91,3 +91,11 @@ Examples
 
 This is on a personal site, not ideal, but it's something:
 <https://ztfreak.kho.nu/pridecss/releases/2.1.css>
+
+## Contributing
+
+Flags and CSS generation are split. `_flags.scss` is where the flags are defined, `pride.scss` and `pride-lite.scss` use the flags to generate CSS.
+
+Run `npm i` to install Grunt, SCSS and Stylelint packages.
+
+If you have the Grunt CLI, you can run `grunt`, which automatically compiles and lints your changes.
