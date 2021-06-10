@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/pride-lite.css">
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+            #test {
+                width: 100vw;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr 2fr 1fr;
+                gap: 30px 30px;
+            }
+            div {
+                min-width: 150px;
+                min-height: 100px;
+                width: 150px;
+                height: 100px;
+                display: inline-block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        Just a little page to see if the flags look how they are supposed to look. If this doesn't work, it might have to do with CORS.
+        <div id="test"></div>
+        <script>
+            const testDiv = document.getElementById('test')
+            const classes = document.styleSheets[0].rules || document.styleSheets[0].cssRules
+            let newDiv
+            for (let i = 0; i < classes.length; i++) {
+                newDiv = document.createElement('div')
+                newDiv.classList.add(classes[i].selectorText.substring(1))
+                newDiv.innerText = classes[i].selectorText.substring(1)
+                testDiv.appendChild(newDiv)
+            }
+        </script>
+    </body>
+</html>

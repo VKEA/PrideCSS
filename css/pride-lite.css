@@ -19,7 +19,7 @@
 }
 
 .pride--aro2 {
-  background-image: linear-gradient(#3da542 calc((100%/5) * 1), #a9d27a calc((100%/5) * 1), #a9d27a calc((100%/5) * 2), #ff6 calc((100%/5) * 2), #ffff66 60%, #a9a9a9 calc((100%/5) * 3), #a9a9a9 calc((100%/5) * 4), #000 calc((100%/5) * 4));
+  background-image: linear-gradient(#3da542 calc((100%/5) * 1), #a9d27a calc((100%/5) * 1), #a9d27a calc((100%/5) * 2), #ff6 calc((100%/5) * 2), #ff6 60%, #a9a9a9 calc((100%/5) * 3), #a9a9a9 calc((100%/5) * 4), #000 calc((100%/5) * 4));
 }
 
 .pride--aro3 {
@@ -28,6 +28,10 @@
 
 .pride--ace {
   background-image: linear-gradient(#000 calc((100%/4) * 1), #a3a3a3 calc((100%/4) * 1), #a3a3a3 calc((100%/4) * 2), #fff calc((100%/4) * 2), #fff calc((100%/4) * 3), #800080 calc((100%/4) * 3));
+}
+
+.pride--bear {
+  background-image: linear-gradient(#623500 calc((100%/7) * 1), #d66300 calc((100%/7) * 1), #d66300 calc((100%/7) * 2), #fede63 calc((100%/7) * 2), #fede63 calc((100%/7) * 3), #fee7b9 calc((100%/7) * 3), #fee7b9 calc((100%/7) * 4), #fff calc((100%/7) * 4), #fff calc((100%/7) * 5), #545454 calc((100%/7) * 5), #545454 calc((100%/7) * 6), #000 calc((100%/7) * 6));
 }
 
 .pride--bi {
@@ -78,6 +82,10 @@
   background-image: linear-gradient(#639 calc((100%/4) * 1), #fc3 calc((100%/4) * 1), #fc3 calc((100%/4) * 2), #6c3 calc((100%/4) * 2), #6c3 calc((100%/4) * 3), #f69 calc((100%/4) * 3));
 }
 
+.pride--maverique {
+  background-image: linear-gradient(#fff342 calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #f4971c calc((100%/3) * 2));
+}
+
 .pride--mlm {
   background-image: linear-gradient(#078e70 calc((100%/7) * 1), #26ceaa calc((100%/7) * 1), #26ceaa calc((100%/7) * 2), #9ae8c1 calc((100%/7) * 2), #9ae8c1 calc((100%/7) * 3), #fff calc((100%/7) * 3), #fff calc((100%/7) * 4), #7bade2 calc((100%/7) * 4), #7bade2 calc((100%/7) * 5), #5049cb calc((100%/7) * 5), #5049cb calc((100%/7) * 6), #3d1a78 calc((100%/7) * 6));
 }
@@ -120,6 +128,10 @@
 
 .pride--polysexual {
   background-image: linear-gradient(#f615ba calc((100%/3) * 1), #01d669 calc((100%/3) * 1), #01d669 calc((100%/3) * 2), #1593f6 calc((100%/3) * 2));
+}
+
+.pride--sapphic {
+  background-image: linear-gradient(#ff89ab calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ff89ab calc((100%/3) * 2));
 }
 
 .pride--trans {

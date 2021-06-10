@@ -35,6 +35,7 @@ Examples
 - aro2
 - aro3
 - ace
+- bear
 - bi
 - demiboy
 - demigender
@@ -47,6 +48,7 @@ Examples
 - lesbian
 - lesbian2
 - lesbian3
+- maverique
 - mlm
 - mlm2
 - mlm3
@@ -58,6 +60,7 @@ Examples
 - philadelphia
 - polygender
 - polysexual
+- sapphic
 - trans
 
 ### Gradient directions
