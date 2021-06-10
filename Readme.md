@@ -1,5 +1,7 @@
 ## PrideCSS, a BEM-compliant SCSS library for adding pride flags
 
+[![Build Status](https://travis-ci.com/VKEA/PrideCSS.svg?branch=master)](https://travis-ci.com/VKEA/PrideCSS)
+
 PrideCSS is a SCSS library for adding pride flags to your HTML elements.
 
 You'll need to compile it to CSS to use it on a website, or use a CDN, which will be updated in the future.
