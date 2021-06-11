@@ -10,15 +10,16 @@
             #test {
                 width: 100vw;
                 display: grid;
-                grid-template-columns: auto auto auto auto;
-                gap: 30px 30px;
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+                padding: 10px;
+                grid-template-columns: auto auto auto auto auto auto auto auto;
             }
             div {
                 min-width: 150px;
                 min-height: 100px;
                 width: 150px;
                 height: 100px;
-                display: inline-block;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -29,7 +30,6 @@
         </style>
     </head>
     <body>
-        Just a little page to see if the flags look how they are supposed to look. If the flags won't display, it might have to do with CORS. Run this page via a local web server.
         <div id="test"></div>
         <script>
             const testDiv = document.getElementById('test')
