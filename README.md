@@ -9,6 +9,8 @@ PrideCSS is a SCSS library for adding pride flags to your HTML elements.
 
 SCSS source can be found in the `scss`folder, compiled CSS can be found inside the`css` folder.
 
+![a screenshot of the different flags](sample.png)
+
 ## Usage
 
 PrideCSS comes in two flavours: a full version and a light version. If you don't need to use directional modifiers for your flags, it is recommended to use the light version `pride-lite`, which contains all different pride flags, but without directional modifiers.
