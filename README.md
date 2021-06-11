@@ -9,7 +9,11 @@ PrideCSS is a SCSS library for adding pride flags to your HTML elements.
 
 SCSS source can be found in the `scss`folder, compiled CSS can be found inside the`css` folder.
 
+![a screenshot of the different flags](sample.png)
+
 ## Usage
+
+PrideCSS comes in two flavours: a full version and a light version. If you don't need to use directional modifiers for your flags, it is recommended to use the light version `pride-lite`, which contains all different pride flags, but without directional modifiers.
 
 PrideCSS class names start with the word `pride`, followed by Block Element Modifier (BEM) modifiers.
 
@@ -32,63 +36,71 @@ Examples
 ## Modifiers
 
 ### Pride flags
-- agender
-- agender2
-- androgyne
-- androgyne2
-- aro
-- aro2
-- aro3
-- ace
-- bear
-- bi
-- demiboy
-- demigender
-- demigirl
-- gay
-- genderfluid
-- genderqueer
-- gilbertbaker
-- intersex
-- lesbian
-- lesbian2
-- lesbian3
-- maverique
-- mlm
-- mlm2
-- mlm3
-- neutrois
-- nb
-- nb2
-- nb3
-- pan
-- philadelphia
-- polygender
-- polysexual
-- sapphic
-- trans
-- twink
+
+| Flag           | Type     |
+|----------------|---------:|
+| agender        | standard |
+| agender2       | standard |
+| androgyne      | standard |
+| androgyne2     | standard |
+| aro            | standard |
+| aro2           | standard |
+| aro3           | standard |
+| ace            | standard |
+| bear           | standard |
+| bi             | standard |
+| demiboy        | standard |
+| demigender     | standard |
+| demigirl       | standard |
+| demisexual     | complex  |
+| gay            | standard |
+| genderfluid    | standard |
+| genderqueer    | standard |
+| gilbertbaker   | standard |
+| intersex       | radial   |
+| intersex2      | standard |
+| lesbian        | standard |
+| lesbian2       | standard |
+| lesbian3       | standard |
+| maverique      | standard |
+| mlm            | standard |
+| mlm2           | standard |
+| mlm3           | standard |
+| neutrois       | standard |
+| nb             | standard |
+| nb2            | standard |
+| nb3            | standard |
+| pan            | standard |
+| philadelphia   | standard |
+| polygender     | standard |
+| polysexual     | standard |
+| quasar         | standard |
+| sapphic        | standard |
+| trans          | standard |
+| twink          | standard |
 
 ### Gradient directions
-- {name}
-- horizontal--{name}
-- topleft--{name}
-- topright--{name}
-- bottomright--{name}
-- bottomleft--{name}
-- radial--{name}
-- radial--top--{name}
-- radial--bottom--{name}
-- radial--left--{name}
-- radial--right--{name}
-- radial--topleft--{name}
-- radial--topright--{name}
-- radial--bottomright--{name}
-- radial--bottomleft--{name}
-- border--thin--{name}
-- border--thin--{name}
-- border--thick--{name}
-- border--dummythicc--{name}
+| Direction                   | Compatibility             |
+|-----------------------------|--------------------------:|
+| {name}                      | standard, radial, complex |
+| horizontal--{name}          | standard                  |
+| topleft--{name}             | standard                  |
+| topright--{name}            | standard                  |
+| bottomright--{name}         | standard                  |
+| bottomleft--{name}          | standard                  |
+| radial--{name}              | standard, radial          |
+| radial--top--{name}         | standard, radial          |
+| radial--bottom--{name}      | standard, radial          |
+| radial--left--{name}        | standard, radial          |
+| radial--right--{name}       | standard, radial          |
+| radial--topleft--{name}     | standard, radial          |
+| radial--topright--{name}    | standard, radial          |
+| radial--bottomright--{name} | standard, radial          |
+| radial--bottomleft--{name}  | standard, radial          |
+| border--thin--{name}        | standard                  |
+| border--thin--{name}        | standard                  |
+| border--thick--{name}       | standard                  |
+| border--dummythicc--{name}  | standard                  |
 
 ## CDN
 
@@ -97,7 +109,7 @@ This is on a personal site, not ideal, but it's something:
 
 ## Contributing
 
-Flags and CSS generation are split. `_flags.scss` is where the flags are defined, `pride.scss` and `pride-lite.scss` use the flags to generate CSS.
+Flags and CSS generation are split. `scss/flags` is where the flags are defined, `scss/logic` is where the CSS generation logic is, `pride.scss` and `pride-lite.scss` are output files.
 
 Run `npm i` to install Grunt, SCSS and Stylelint packages.
 

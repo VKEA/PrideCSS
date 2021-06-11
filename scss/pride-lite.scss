@@ -1,9 +1,30 @@
-@use 'flags';
+@use 'flags/flags';
+@use 'flags/radial';
+@use 'flags/complex';
 
 @each $name, $flag in flags.$flags {
   .pride {
     &--#{$name} {
       background-image: linear-gradient($flag);
+    }
+  }
+}
+
+@each $name, $flag in radial.$flags {
+  .pride {
+    &--#{$name} {
+      background-image: radial-gradient(circle, $flag);
+    }
+  }
+}
+
+@each $name, $flag in complex.$flags {
+  .pride {
+    &--#{$name} {
+      background-image: map-get($flag, 'gradient');
+      background-size: map-get($flag, 'size');
+      background-position: map-get($flag, 'position');
+      background-repeat: no-repeat;
     }
   }
 }

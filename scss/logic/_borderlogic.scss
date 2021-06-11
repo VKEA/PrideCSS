@@ -1,0 +1,26 @@
+@mixin logic ($name, $flag) {
+  .pride {
+    &--border {
+      &--thin--#{$name} {
+        border: 1px solid;
+        border-image-source: linear-gradient($flag);
+        border-image-slice: 1;
+      }
+      &--medium--#{$name} {
+        border: 3px solid;
+        border-image-source: linear-gradient($flag);
+        border-image-slice: 3;
+      }
+      &--thick--#{$name} {
+        border: 5px solid;
+        border-image-source: linear-gradient($flag);
+        border-image-slice: 5;
+      }
+      &--dummythicc--#{$name} {
+        border: 50px solid;
+        border-image-source: linear-gradient($flag);
+        border-image-slice: 50;
+      }
+    }
+  }
+}

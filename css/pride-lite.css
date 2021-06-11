@@ -66,7 +66,7 @@
   background-image: linear-gradient(#ff69b5 calc((100%/8) * 1), #f00 calc((100%/8) * 1), #f00 calc((100%/8) * 2), #ff8f00 calc((100%/8) * 2), #ff8f00 calc((100%/8) * 3), #ff0 calc((100%/8) * 3), #ff0 calc((100%/8) * 4), #008f00 calc((100%/8) * 4), #008f00 calc((100%/8) * 5), #00c1c1 calc((100%/8) * 5), #00c1c1 calc((100%/8) * 6), #3e0099 calc((100%/8) * 6), #3e0099 calc((100%/8) * 7), #8f008f calc((100%/8) * 7));
 }
 
-.pride--intersex {
+.pride--intersex2 {
   background-image: linear-gradient(#d7abcf calc((100%/6) * 1), #fff calc((100%/6) * 1), #fff calc((100%/6) * 2), #9fcdef calc((100%/6) * 2), #9fcdef calc((100%/6) * 2.5), #f0b8d5 calc((100%/6) * 3.5), #f0b8d5 calc((100%/6) * 4), #fff calc((100%/6) * 4), #fff calc((100%/6) * 5), #d7abcf calc((100%/6) * 5));
 }
 
@@ -140,4 +140,22 @@
 
 .pride--twink {
   background-image: linear-gradient(#ffb0ff calc((100%/3) * 1), #fff calc((100%/3) * 1), #fff calc((100%/3) * 2), #ffff80 calc((100%/3) * 2));
+}
+
+.pride--intersex {
+  background-image: radial-gradient(circle, #ffd900 calc((100%/20) * 4), #7a00ac calc((100%/20) * 4 + 1px), #7a00ac calc((100%/20) * 5), #7a00ac calc((100%/20) * 5), #7a00ac calc((100%/20) * 6 - 1px), #ffd900 calc((100%/20) * 6));
+}
+
+.pride--demisexual {
+  background-image: linear-gradient(to top left, transparent 50%, #000 calc(50% + 1px)), linear-gradient(to bottom left, transparent 50%, #000 calc(50% + 1px)), linear-gradient(#fff calc((100%/5) * 2), #6e0071 calc((100%/5) * 2), #6e0071 calc((100%/5) * 3), #d3d3d3 calc((100%/5) * 3));
+  background-size: 40% 50%, 40% 50%, 100% 100%;
+  background-position: 0 100%, 0 0, 100% 0;
+  background-repeat: no-repeat;
+}
+
+.pride--quasar {
+  background-image: linear-gradient(to top left, transparent 50%, #000 calc(50% + 1px), #000 calc(60%), #794e10 calc(60% + 1px), #794e10 calc(70%), #5bcefa calc(70% + 1px), #5bcefa calc(80%), #f5a9b8 calc(80% + 1px), #f5a9b8 calc(90%), #fff calc(90% + 1px)), linear-gradient(to bottom left, transparent 50%, #000 calc(50% + 1px), #000 calc(60%), #794e10 calc(60% + 1px), #794e10 calc(70%), #5bcefa calc(70% + 1px), #5bcefa calc(80%), #f5a9b8 calc(80% + 1px), #f5a9b8 calc(90%), #fff calc(90% + 1px)), linear-gradient(#e40303 calc((100%/6) * 1), #ff8c00 calc((100%/6) * 1), #ff8c00 calc((100%/6) * 2), #ffed00 calc((100%/6) * 2), #ffed00 calc((100%/6) * 3), #008026 calc((100%/6) * 3), #008026 calc((100%/6) * 4), #004dff calc((100%/6) * 4), #004dff calc((100%/6) * 5), #750787 calc((100%/6) * 5));
+  background-size: 40% 50%, 40% 50%, 100% 100%;
+  background-position: 0 100%, 0 0, 100% 0;
+  background-repeat: no-repeat;
 }

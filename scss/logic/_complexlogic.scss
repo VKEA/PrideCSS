@@ -1,0 +1,10 @@
+@mixin logic ($name, $flag) {
+  .pride {
+    &--#{$name} {
+      background-image: map-get($flag, 'gradient');
+      background-size: map-get($flag, 'size');
+      background-position: map-get($flag, 'position');
+      background-repeat: no-repeat;
+    }
+  }
+}
