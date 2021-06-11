@@ -1,6 +1,6 @@
 {
   "name": "@vkea/pridecss",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "PrideCSS is a SCSS library for adding pride flags to your HTML elements.",
   "main": "Gruntfile.js",
   "scripts": {
