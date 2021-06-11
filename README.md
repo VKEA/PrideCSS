@@ -109,7 +109,7 @@ This is on a personal site, not ideal, but it's something:
 
 ## Contributing
 
-Flags and CSS generation are split. `_flags.scss` is where the flags are defined, `pride.scss` and `pride-lite.scss` use the flags to generate CSS.
+Flags and CSS generation are split. `scss/flags` is where the flags are defined, `scss/logic` is where the CSS generation logic is, `pride.scss` and `pride-lite.scss` are output files.
 
 Run `npm i` to install Grunt, SCSS and Stylelint packages.
 
