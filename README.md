@@ -14,22 +14,40 @@ SCSS source can be found in the `scss`folder, compiled CSS can be found inside t
 ## Installation
 
 npm
-```npm i @vkea/pridecss```
+
+```
+npm i @vkea/pridecss
+```
 
 yarn
-```yarn add @vkea/pridecss```
+
+```
+yarn add @vkea/pridecss
+```
 
 jsdelivr - pride.css
-```<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.2.0/css/pride.css">```
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.2.0/css/pride.css">
+```
 
 jsdelivr - pride-lite.css
-```<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.2.0/css/pride-lite.css">```
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.2.0/css/pride-lite.css">
+```
 
 unpkg - pride.css
-```<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.2.0/css/pride.css">```
+
+```
+<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.2.0/css/pride.css">
+```
 
 unpkg - pride-lite.css
-```<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.2.0/css/pride-lite.css">```
+
+```
+<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.2.0/css/pride-lite.css">
+```
 
 
 ## Usage
