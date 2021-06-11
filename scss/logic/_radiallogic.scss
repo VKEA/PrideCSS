@@ -2,7 +2,7 @@
   .pride {
     &--radial {
       &--#{$name} {
-        background-image: radial-gradient(circle, $flag);
+        background-image: radial-gradient(ellipse, $flag);
       }
       &--top--#{$name} {
         background-image: radial-gradient(ellipse at top, $flag);

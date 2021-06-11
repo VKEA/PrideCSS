@@ -1,13 +1,57 @@
 $flags: (
   'demisexual': (
     'gradient': (
-      linear-gradient(to top left, transparent 50%, black calc(50% + 1px)),
-      linear-gradient(to bottom left, transparent 50%, black calc(50% + 1px)),
+      linear-gradient(to top left, transparent 50%, #000 calc(50% + 1px)),
+      linear-gradient(to bottom left, transparent 50%, #000 calc(50% + 1px)),
       linear-gradient(
         #fff calc((100%/5) * 2),
         #6e0071 calc((100%/5) * 2),
         #6e0071 calc((100%/5) * 3),
         #d3d3d3 calc((100%/5) * 3)
+      )
+    ),
+    'size': (40% 50%, 40% 50%, 100% 100%),
+    'position': (0 100%, 0 0, 100% 0)
+  ),
+  'quasar': (
+    'gradient': (
+      linear-gradient(
+        to top left,
+        transparent 50%,
+        #000 calc(50% + 1px),
+        #000 calc(60%),
+        #794e10 calc(60% + 1px),
+        #794e10 calc(70%),
+        #5bcefa  calc(70% + 1px),
+        #5bcefa  calc(80%),
+        #f5a9b8 calc(80% + 1px),
+        #f5a9b8 calc(90%),
+        #fff calc(90% + 1px)
+      ),
+      linear-gradient(
+        to bottom left,
+        transparent 50%,
+        #000 calc(50% + 1px),
+        #000 calc(60%),
+        #794e10 calc(60% + 1px),
+        #794e10 calc(70%),
+        #5bcefa  calc(70% + 1px),
+        #5bcefa  calc(80%),
+        #f5a9b8 calc(80% + 1px),
+        #f5a9b8 calc(90%),
+        #fff calc(90% + 1px)
+      ),
+      linear-gradient(
+        #e40303 calc((100%/6) * 1),
+        #ff8c00 calc((100%/6) * 1),
+        #ff8c00 calc((100%/6) * 2),
+        #ffed00 calc((100%/6) * 2),
+        #ffed00 calc((100%/6) * 3),
+        #008026 calc((100%/6) * 3),
+        #008026 calc((100%/6) * 4),
+        #004dff calc((100%/6) * 4),
+        #004dff calc((100%/6) * 5),
+        #750787 calc((100%/6) * 5)
       )
     ),
     'size': (40% 50%, 40% 50%, 100% 100%),

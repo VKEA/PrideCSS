@@ -13,6 +13,12 @@
 }
 
 @each $name, $flag in radial.$flags {
+  .pride {
+    &--#{$name} {
+      background-image: radial-gradient(circle, $flag);
+    }
+  }
+
   @include radiallogic.logic($name, $flag);
 }
 
