@@ -32,63 +32,70 @@ Examples
 ## Modifiers
 
 ### Pride flags
-- agender
-- agender2
-- androgyne
-- androgyne2
-- aro
-- aro2
-- aro3
-- ace
-- bear
-- bi
-- demiboy
-- demigender
-- demigirl
-- gay
-- genderfluid
-- genderqueer
-- gilbertbaker
-- intersex
-- lesbian
-- lesbian2
-- lesbian3
-- maverique
-- mlm
-- mlm2
-- mlm3
-- neutrois
-- nb
-- nb2
-- nb3
-- pan
-- philadelphia
-- polygender
-- polysexual
-- sapphic
-- trans
-- twink
+
+| Flag           | Type     |
+|----------------|---------:|
+| agender        | standard |
+| agender2       | standard |
+| androgyne      | standard |
+| androgyne2     | standard |
+| aro            | standard |
+| aro2           | standard |
+| aro3           | standard |
+| ace            | standard |
+| bear           | standard |
+| bi             | standard |
+| demiboy        | standard |
+| demigender     | standard |
+| demigirl       | standard |
+| demisexual     | complex  |
+| gay            | standard |
+| genderfluid    | standard |
+| genderqueer    | standard |
+| gilbertbaker   | standard |
+| intersex       | radial   |
+| intersex2      | standard |
+| lesbian        | standard |
+| lesbian2       | standard |
+| lesbian3       | standard |
+| maverique      | standard |
+| mlm            | standard |
+| mlm2           | standard |
+| mlm3           | standard |
+| neutrois       | standard |
+| nb             | standard |
+| nb2            | standard |
+| nb3            | standard |
+| pan            | standard |
+| philadelphia   | standard |
+| polygender     | standard |
+| polysexual     | standard |
+| sapphic        | standard |
+| trans          | standard |
+| twink          | standard |
 
 ### Gradient directions
-- {name}
-- horizontal--{name}
-- topleft--{name}
-- topright--{name}
-- bottomright--{name}
-- bottomleft--{name}
-- radial--{name}
-- radial--top--{name}
-- radial--bottom--{name}
-- radial--left--{name}
-- radial--right--{name}
-- radial--topleft--{name}
-- radial--topright--{name}
-- radial--bottomright--{name}
-- radial--bottomleft--{name}
-- border--thin--{name}
-- border--thin--{name}
-- border--thick--{name}
-- border--dummythicc--{name}
+| Direction                   | Compatibility             |
+|-----------------------------|--------------------------:|
+| {name}                      | standard, radial, complex |
+| horizontal--{name}          | standard                  |
+| topleft--{name}             | standard                  |
+| topright--{name}            | standard                  |
+| bottomright--{name}         | standard                  |
+| bottomleft--{name}          | standard                  |
+| radial--{name}              | standard, radial          |
+| radial--top--{name}         | standard, radial          |
+| radial--bottom--{name}      | standard, radial          |
+| radial--left--{name}        | standard, radial          |
+| radial--right--{name}       | standard, radial          |
+| radial--topleft--{name}     | standard, radial          |
+| radial--topright--{name}    | standard, radial          |
+| radial--bottomright--{name} | standard, radial          |
+| radial--bottomleft--{name}  | standard, radial          |
+| border--thin--{name}        | standard                  |
+| border--thin--{name}        | standard                  |
+| border--thick--{name}       | standard                  |
+| border--dummythicc--{name}  | standard                  |
 
 ## CDN
 

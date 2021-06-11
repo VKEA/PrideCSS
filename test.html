@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/pride-lite.css">
+        <link rel="stylesheet" href="css/pride.css">
         <style>
             html, body {
                 margin: 0;
@@ -10,8 +10,7 @@
             #test {
                 width: 100vw;
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: 1fr 2fr 1fr;
+                grid-template-columns: auto auto auto auto;
                 gap: 30px 30px;
             }
             div {
@@ -30,7 +29,7 @@
         </style>
     </head>
     <body>
-        Just a little page to see if the flags look how they are supposed to look. If this doesn't work, it might have to do with CORS.
+        Just a little page to see if the flags look how they are supposed to look. If the flags won't display, it might have to do with CORS. Run this page via a local web server.
         <div id="test"></div>
         <script>
             const testDiv = document.getElementById('test')

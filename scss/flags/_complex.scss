@@ -1,0 +1,16 @@
+$flags: (
+  'demisexual': (
+    'gradient': (
+      linear-gradient(to top left, transparent 50%, black calc(50% + 1px)),
+      linear-gradient(to bottom left, transparent 50%, black calc(50% + 1px)),
+      linear-gradient(
+        #fff calc((100%/5) * 2),
+        #6e0071 calc((100%/5) * 2),
+        #6e0071 calc((100%/5) * 3),
+        #d3d3d3 calc((100%/5) * 3)
+      )
+    ),
+    'size': (40% 50%, 40% 50%, 100% 100%),
+    'position': (0 100%, 0 0, 100% 0)
+  ),
+);

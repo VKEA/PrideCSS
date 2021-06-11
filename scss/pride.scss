@@ -1,77 +1,21 @@
-@use 'flags';
+@use 'flags/flags';
+@use 'flags/radial';
+@use 'flags/complex';
+@use 'logic/stripelogic';
+@use 'logic/radiallogic';
+@use 'logic/borderlogic';
+@use 'logic/complexlogic';
 
 @each $name, $flag in flags.$flags {
-  .pride {
-    &--#{$name} {
-      background-image: linear-gradient($flag);
-    }
-    &--horizontal--#{$name} {
-      background-image: linear-gradient(to right, $flag);
-    }
-    &--topleft--#{$name} {
-      background-image: linear-gradient(135deg, $flag);
-    }
-    &--topright--#{$name} {
-      background-image: linear-gradient(-135deg, $flag);
-    }
-    &--bottomright--#{$name} {
-      background-image: linear-gradient(-45deg, $flag);
-    }
-    &--bottomleft--#{$name} {
-      background-image: linear-gradient(45deg, $flag);
-    }
+  @include stripelogic.logic($name, $flag);
+  @include radiallogic.logic($name, $flag);
+  @include borderlogic.logic($name, $flag);
+}
 
-    &--radial {
-      &--#{$name} {
-        background-image: radial-gradient(circle, $flag);
-      }
-      &--top--#{$name} {
-        background-image: radial-gradient(ellipse at top, $flag);
-      }
-      &--bottom--#{$name} {
-        background-image: radial-gradient(ellipse at bottom, $flag);
-      }
-      &--left--#{$name} {
-        background-image: radial-gradient(ellipse at left, $flag);
-      }
-      &--right--#{$name} {
-        background-image: radial-gradient(ellipse at right, $flag);
-      }
-      &--topleft--#{$name} {
-        background-image: radial-gradient(ellipse at top left, $flag);
-      }
-      &--topright--#{$name} {
-        background-image: radial-gradient(ellipse at top right, $flag);
-      }
-      &--bottomright--#{$name} {
-        background-image: radial-gradient(ellipse at bottom right, $flag);
-      }
-      &--bottomleft--#{$name} {
-        background-image: radial-gradient(ellipse at bottom left, $flag);
-      }
-    }
+@each $name, $flag in radial.$flags {
+  @include radiallogic.logic($name, $flag);
+}
 
-    &--border {
-      &--thin--#{$name} {
-        border: 1px solid;
-        border-image-source: linear-gradient($flag);
-        border-image-slice: 1;
-      }
-      &--medium--#{$name} {
-        border: 3px solid;
-        border-image-source: linear-gradient($flag);
-        border-image-slice: 3;
-      }
-      &--thick--#{$name} {
-        border: 5px solid;
-        border-image-source: linear-gradient($flag);
-        border-image-slice: 5;
-      }
-      &--dummythicc--#{$name} {
-        border: 50px solid;
-        border-image-source: linear-gradient($flag);
-        border-image-slice: 50;
-      }
-    }
-  }
+@each $name, $flag in complex.$flags {
+  @include complexlogic.logic($name, $flag);
 }

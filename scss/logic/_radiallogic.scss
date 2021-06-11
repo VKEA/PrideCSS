@@ -1,0 +1,33 @@
+@mixin logic ($name, $flag) {
+  .pride {
+    &--radial {
+      &--#{$name} {
+        background-image: radial-gradient(circle, $flag);
+      }
+      &--top--#{$name} {
+        background-image: radial-gradient(ellipse at top, $flag);
+      }
+      &--bottom--#{$name} {
+        background-image: radial-gradient(ellipse at bottom, $flag);
+      }
+      &--left--#{$name} {
+        background-image: radial-gradient(ellipse at left, $flag);
+      }
+      &--right--#{$name} {
+        background-image: radial-gradient(ellipse at right, $flag);
+      }
+      &--topleft--#{$name} {
+        background-image: radial-gradient(ellipse at top left, $flag);
+      }
+      &--topright--#{$name} {
+        background-image: radial-gradient(ellipse at top right, $flag);
+      }
+      &--bottomright--#{$name} {
+        background-image: radial-gradient(ellipse at bottom right, $flag);
+      }
+      &--bottomleft--#{$name} {
+        background-image: radial-gradient(ellipse at bottom left, $flag);
+      }
+    }
+  }
+}
