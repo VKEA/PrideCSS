@@ -28,25 +28,25 @@ yarn add @vkea/pridecss
 jsdelivr - pride.css
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.2.0/css/pride.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.4.0/css/pride.css">
 ```
 
 jsdelivr - pride-lite.css
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.2.0/css/pride-lite.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.4.0/css/pride-lite.css">
 ```
 
 unpkg - pride.css
 
 ```
-<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.2.0/css/pride.css">
+<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.4.0/css/pride.css">
 ```
 
 unpkg - pride-lite.css
 
 ```
-<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.2.0/css/pride-lite.css">
+<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.4.0/css/pride-lite.css">
 ```
 
 
@@ -85,7 +85,9 @@ Examples
 | aro            | standard |
 | aro2           | standard |
 | aro3           | standard |
+| aroace         | standard |
 | ace            | standard |
+| ace2           | standard |
 | bear           | standard |
 | bi             | standard |
 | demiboy        | standard |
@@ -109,6 +111,7 @@ Examples
 | nb             | standard |
 | nb2            | standard |
 | nb3            | standard |
+| omnisexual     | standard |
 | pan            | standard |
 | philadelphia   | standard |
 | polygender     | standard |
