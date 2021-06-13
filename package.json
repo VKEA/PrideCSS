@@ -1,6 +1,6 @@
 {
-  "name": "pridecss",
-  "version": "3.2.0",
+  "name": "@vkea/pridecss",
+  "version": "3.4.0",
   "description": "PrideCSS is a SCSS library for adding pride flags to your HTML elements.",
   "main": "Gruntfile.js",
   "scripts": {
@@ -23,9 +23,7 @@
     "grunt-sass": "^3.1.0",
     "grunt-stylelint": "^0.16.0",
     "stylelint": "^13.13.1",
+    "stylelint-scss": "^3.19.0",
     "stylelint-config-standard": "^22.0.0"
-  },
-  "dependencies": {
-    "stylelint-scss": "^3.19.0"
   }
 }

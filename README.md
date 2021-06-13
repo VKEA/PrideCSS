@@ -11,6 +11,45 @@ SCSS source can be found in the `scss`folder, compiled CSS can be found inside t
 
 ![a screenshot of the different flags](sample.png)
 
+## Installation
+
+npm
+
+```
+npm i @vkea/pridecss
+```
+
+yarn
+
+```
+yarn add @vkea/pridecss
+```
+
+jsdelivr - pride.css
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.4.0/css/pride.css">
+```
+
+jsdelivr - pride-lite.css
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vkea/pridecss@3.4.0/css/pride-lite.css">
+```
+
+unpkg - pride.css
+
+```
+<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.4.0/css/pride.css">
+```
+
+unpkg - pride-lite.css
+
+```
+<link rel="stylesheet" href="https://unpkg.com/@vkea/pridecss@3.4.0/css/pride-lite.css">
+```
+
+
 ## Usage
 
 PrideCSS comes in two flavours: a full version and a light version. If you don't need to use directional modifiers for your flags, it is recommended to use the light version `pride-lite`, which contains all different pride flags, but without directional modifiers.
@@ -46,7 +85,9 @@ Examples
 | aro            | standard |
 | aro2           | standard |
 | aro3           | standard |
+| aroace         | standard |
 | ace            | standard |
+| ace2           | standard |
 | bear           | standard |
 | bi             | standard |
 | demiboy        | standard |
@@ -70,11 +111,12 @@ Examples
 | nb             | standard |
 | nb2            | standard |
 | nb3            | standard |
+| omnisexual     | standard |
 | pan            | standard |
 | philadelphia   | standard |
 | polygender     | standard |
 | polysexual     | standard |
-| quasar         | standard |
+| quasar         | complex  |
 | sapphic        | standard |
 | trans          | standard |
 | twink          | standard |
@@ -101,11 +143,6 @@ Examples
 | border--thin--{name}        | standard                  |
 | border--thick--{name}       | standard                  |
 | border--dummythicc--{name}  | standard                  |
-
-## CDN
-
-This is on a personal site, not ideal, but it's something:
-<https://ztfreak.kho.nu/pridecss/releases/2.1.css>
 
 ## Contributing
 
