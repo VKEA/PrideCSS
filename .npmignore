@@ -1,0 +1,11 @@
+node_modules/
+.github/
+.styleintrc.json
+.travis.yml
+CODE_OF_CONDUCT.md
+Gruntfile.js
+LICENSE
+package-lock.json
+package.json
+sample.png
+test.html
