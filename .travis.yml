@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - "lts/*"
+  - 17
 before_script:
-  - npm install grunt-cli -g
+  - npm install grunt --location=global
   - npm i
 script:
   - grunt sass
