@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 17
 before_script:
-  - npm install -g grunt
+  - npm install grunt --location=global
   - npm i
 script:
   - grunt sass
