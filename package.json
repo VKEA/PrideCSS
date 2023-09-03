@@ -14,11 +14,8 @@
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VKEA/PrideCSS.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/VKEA/PrideCSS.git",
+  "author": "Zt-freak <bnkho98@hotmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/VKEA/PrideCSS/issues"
@@ -31,7 +28,7 @@
     "grunt-sass": "^3.1.0",
     "grunt-stylelint": "^0.16.0",
     "stylelint": "^15.6.0",
-    "stylelint-scss": "^3.19.0",
-    "stylelint-config-standard": "^22.0.0"
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.19.0"
   }
 }
